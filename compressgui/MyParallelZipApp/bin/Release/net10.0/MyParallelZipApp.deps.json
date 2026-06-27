@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MyParallelZipApp/1.0.0": {
+        "dependencies": {
+          "UZipDotNet": "0.0.6"
+        },
+        "runtime": {
+          "MyParallelZipApp.dll": {}
+        }
+      },
+      "UZipDotNet/0.0.6": {
+        "runtime": {
+          "UZipDotNet.dll": {
+            "assemblyVersion": "0.0.6.0",
+            "fileVersion": "0.0.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyParallelZipApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UZipDotNet/0.0.6": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

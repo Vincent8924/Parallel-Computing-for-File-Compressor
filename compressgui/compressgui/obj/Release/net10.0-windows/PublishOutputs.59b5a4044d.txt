@@ -1,0 +1,12 @@
+C:\Users\KUEK\Downloads\pass zk\version2\MyParallelZipApp.exe
+C:\Users\KUEK\Downloads\pass zk\version2\compressgui.exe
+C:\Users\KUEK\Downloads\pass zk\version2\MyParallelZipApp.deps.json
+C:\Users\KUEK\Downloads\pass zk\version2\MyParallelZipApp.runtimeconfig.json
+C:\Users\KUEK\Downloads\pass zk\version2\compressgui.dll
+C:\Users\KUEK\Downloads\pass zk\version2\compressgui.deps.json
+C:\Users\KUEK\Downloads\pass zk\version2\compressgui.runtimeconfig.json
+C:\Users\KUEK\Downloads\pass zk\version2\compressgui.pdb
+C:\Users\KUEK\Downloads\pass zk\version2\MyParallelZipApp.dll
+C:\Users\KUEK\Downloads\pass zk\version2\UZipDotNet.dll
+C:\Users\KUEK\Downloads\pass zk\version2\MyParallelZipApp.pdb
+C:\Users\KUEK\Downloads\pass zk\version2\UZipDotNet.pdb

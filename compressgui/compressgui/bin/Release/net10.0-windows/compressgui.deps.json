@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "compressgui/1.0.0": {
+        "dependencies": {
+          "MyParallelZipApp": "1.0.0"
+        },
+        "runtime": {
+          "compressgui.dll": {}
+        }
+      },
+      "MyParallelZipApp/1.0.0": {
+        "dependencies": {
+          "UZipDotNet": "0.0.6"
+        },
+        "runtime": {
+          "MyParallelZipApp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UZipDotNet/0.0.6": {
+        "runtime": {
+          "UZipDotNet.dll": {
+            "assemblyVersion": "0.0.6.0",
+            "fileVersion": "0.0.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "compressgui/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyParallelZipApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UZipDotNet/0.0.6": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,7 @@
+C:\Users\KUEK\Downloads\pass zk\pass zk\compressgui\compressgui\obj\Release\net10.0-windows\win-x64\compressgui.csproj.AssemblyReference.cache
+C:\Users\KUEK\Downloads\pass zk\pass zk\compressgui\compressgui\obj\Release\net10.0-windows\win-x64\compressgui.Form1.resources
+C:\Users\KUEK\Downloads\pass zk\pass zk\compressgui\compressgui\obj\Release\net10.0-windows\win-x64\compressgui.csproj.GenerateResource.cache
+C:\Users\KUEK\Downloads\pass zk\pass zk\compressgui\compressgui\obj\Release\net10.0-windows\win-x64\compressgui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KUEK\Downloads\pass zk\pass zk\compressgui\compressgui\obj\Release\net10.0-windows\win-x64\compressgui.AssemblyInfoInputs.cache
+C:\Users\KUEK\Downloads\pass zk\pass zk\compressgui\compressgui\obj\Release\net10.0-windows\win-x64\compressgui.AssemblyInfo.cs
+C:\Users\KUEK\Downloads\pass zk\pass zk\compressgui\compressgui\obj\Release\net10.0-windows\win-x64\compressgui.csproj.CoreCompileInputs.cache
