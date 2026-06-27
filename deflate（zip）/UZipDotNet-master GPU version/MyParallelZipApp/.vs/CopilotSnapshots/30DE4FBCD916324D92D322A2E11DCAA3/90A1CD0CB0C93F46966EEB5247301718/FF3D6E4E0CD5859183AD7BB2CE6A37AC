@@ -1,0 +1,191 @@
+﻿using System;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using UZipDotNet;
+using ILGPU;
+using ILGPU.Runtime;
+using System.Diagnostics; // 1. 引入高精度计时命名空间
+
+namespace MyParallelZipApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string folderToCompress = @"D:\Study File\degree\Sem5\TPC6323\project\dataset\unzip";
+            string filepath = @"D:\Study File\degree\Sem5\TPC6323\project\dataset\two.zip";
+            string tempunzip = @"D:\Study File\degree\Sem5\TPC6323\project\dataset\unzip";
+
+            // 2. 初始化并启动总计时秒表
+            Stopwatch totalStopwatch = new Stopwatch();
+            totalStopwatch.Start();
+
+            // 1. Run GPU parallel compression (Encrypts and Zips)
+            //compressWithGPU(filepath, folderToCompress);
+
+            // 2. Run GPU parallel decompression (Unzips and Decrypts)
+            decompressWithGPU(filepath, tempunzip);
+
+            // 3. 停止总计时
+            totalStopwatch.Stop();
+
+            // 4. 漂亮地打印出总用时
+            Console.WriteLine("\n========================================");
+            Console.WriteLine("        GPU PERFORMANCE REPORT          ");
+            Console.WriteLine("========================================");
+            Console.WriteLine($"Total Execution Time: {totalStopwatch.Elapsed.TotalSeconds:F4} seconds");
+            Console.WriteLine($"Total Milliseconds:   {totalStopwatch.ElapsedMilliseconds} ms");
+            Console.WriteLine("========================================");
+
+            Console.WriteLine("\nAll GPU Tasks completed successfully! Press any key to exit.");
+            Console.ReadKey();
+        }
+
+        // --- GPU Kernel Function ---
+        // This acts as both an Encryptor and Decryptor due to XOR logic
+        static void MyGpuProcessingKernel(
+            Index1D index,
+            ArrayView<byte> rawData,
+            ArrayView<byte> processedData)
+        {
+            // The XOR operator (^) flips the bits. Running it twice restores the original data!
+            byte currentByte = rawData[index];
+            processedData[index] = (byte)(currentByte ^ 0x5A);
+        }
+
+        static void compressWithGPU(string filepath, string folderToCompress)
+        {
+            Console.WriteLine("\n--- [GPU Parallel] Compression Started ---");
+            try { if (File.Exists(filepath)) File.Delete(filepath); } catch { }
+
+            if (!Directory.Exists(folderToCompress)) return;
+
+            using var context = Context.CreateDefault();
+            using var accelerator = context.GetPreferredDevice(preferCPU: false).CreateAccelerator(context);
+            Console.WriteLine($"Using GPU Accelerator for Compression: {accelerator.Name}");
+
+            var loadedKernel = accelerator.LoadAutoGroupedStreamKernel<Index1D, ArrayView<byte>, ArrayView<byte>>(MyGpuProcessingKernel);
+
+            string[] allFiles = Directory.GetFiles(folderToCompress, "*.*", SearchOption.AllDirectories);
+            string safeFolderPath = folderToCompress.EndsWith("\\") ? folderToCompress : folderToCompress + "\\";
+            Uri folderUri = new Uri(safeFolderPath);
+
+            string? projectDir = Path.GetDirectoryName(filepath);
+            string gpuTempFolder = Path.Combine(projectDir!, "GpuTempCompress");
+            if (Directory.Exists(gpuTempFolder)) Directory.Delete(gpuTempFolder, true);
+            Directory.CreateDirectory(gpuTempFolder);
+
+            // Step 1: Encrypt data using GPU
+            foreach (string file in allFiles)
+            {
+                Uri fileUri = new Uri(file);
+                string relativePath = Uri.UnescapeDataString(folderUri.MakeRelativeUri(fileUri).ToString());
+                relativePath = relativePath.Replace("\\", "/");
+
+                byte[] rawBytes = File.ReadAllBytes(file);
+                if (rawBytes.Length > 0)
+                {
+                    Console.WriteLine($"[GPU Core] Encrypting stream data for: {relativePath}");
+
+                    using var gpuInputBuffer = accelerator.Allocate1D<byte>(rawBytes);
+                    using var gpuOutputBuffer = accelerator.Allocate1D<byte>(rawBytes.Length);
+
+                    loadedKernel(rawBytes.Length, gpuInputBuffer.View, gpuOutputBuffer.View);
+                    accelerator.Synchronize();
+
+                    byte[] gpuResultBytes = gpuOutputBuffer.GetAsArray1D();
+
+                    string tempOutPath = Path.Combine(gpuTempFolder, relativePath);
+                    string? tempOutDir = Path.GetDirectoryName(tempOutPath);
+                    if (!Directory.Exists(tempOutDir!)) Directory.CreateDirectory(tempOutDir!);
+
+                    File.WriteAllBytes(tempOutPath, gpuResultBytes);
+                }
+            }
+
+            // Step 2: Zip the encrypted data
+            Console.WriteLine("Compiling GPU encrypted results into Zip Archive...");
+            using (var def = new DeflateZipFile(filepath))
+            {
+                foreach (string file in allFiles)
+                {
+                    Uri fileUri = new Uri(file);
+                    string relativePath = Uri.UnescapeDataString(folderUri.MakeRelativeUri(fileUri).ToString());
+                    relativePath = relativePath.Replace("\\", "/");
+
+                    string gpuProcessedFilePath = Path.Combine(gpuTempFolder, relativePath);
+                    if (File.Exists(gpuProcessedFilePath)) def.Compress(gpuProcessedFilePath, relativePath);
+                }
+                def.Save();
+            }
+
+            try { Directory.Delete(gpuTempFolder, true); } catch { }
+            Console.WriteLine("-> GPU compression completed!");
+        }
+
+        static void decompressWithGPU(string filepath, string tempunzip)
+        {
+            Console.WriteLine("\n--- [GPU Parallel] Decompression Started ---");
+            if (!File.Exists(filepath)) return;
+
+            string? projectDir = Path.GetDirectoryName(filepath);
+            string gpuTempFolder = Path.Combine(projectDir!, "GpuUnzip");
+            if (Directory.Exists(gpuTempFolder)) Directory.Delete(gpuTempFolder, true);
+            Directory.CreateDirectory(gpuTempFolder);
+
+            // Step 1: Extract the encrypted files using UZipDotNet
+            Console.WriteLine("Extracting encrypted files to temporary workspace...");
+            using (var inf = new InflateZipFile(filepath))
+            {
+                var entries = inf.ZipDir.Cast<object>().ToArray();
+                for (int i = 0; i < entries.Length; i++)
+                {
+                    dynamic entry = entries[i];
+                    try { inf.Decompress(entry, gpuTempFolder, null, true, true); } catch { }
+                }
+            }
+
+            // Step 2: Decrypt the files using GPU
+            using var context = Context.CreateDefault();
+            using var accelerator = context.GetPreferredDevice(preferCPU: false).CreateAccelerator(context);
+            Console.WriteLine($"Using GPU Accelerator for Decryption: {accelerator.Name}");
+
+            var loadedKernel = accelerator.LoadAutoGroupedStreamKernel<Index1D, ArrayView<byte>, ArrayView<byte>>(MyGpuProcessingKernel);
+
+            string[] extractedFiles = Directory.GetFiles(gpuTempFolder, "*.*", SearchOption.AllDirectories);
+            string safeTempPath = gpuTempFolder.EndsWith("\\") ? gpuTempFolder : gpuTempFolder + "\\";
+            Uri tempFolderUri = new Uri(safeTempPath);
+
+            foreach (string file in extractedFiles)
+            {
+                Uri fileUri = new Uri(file);
+                string relativePath = Uri.UnescapeDataString(tempFolderUri.MakeRelativeUri(fileUri).ToString());
+
+                byte[] encryptedBytes = File.ReadAllBytes(file);
+                if (encryptedBytes.Length > 0)
+                {
+                    Console.WriteLine($"[GPU Core] Decrypting and restoring: {relativePath}");
+
+                    using var gpuInputBuffer = accelerator.Allocate1D<byte>(encryptedBytes);
+                    using var gpuOutputBuffer = accelerator.Allocate1D<byte>(encryptedBytes.Length);
+
+                    // Running the exact same kernel reverses the XOR cipher
+                    loadedKernel(encryptedBytes.Length, gpuInputBuffer.View, gpuOutputBuffer.View);
+                    accelerator.Synchronize();
+
+                    byte[] restoredBytes = gpuOutputBuffer.GetAsArray1D();
+
+                    string finalOutPath = Path.Combine(tempunzip, relativePath);
+                    string? finalOutDir = Path.GetDirectoryName(finalOutPath);
+                    if (!Directory.Exists(finalOutDir!)) Directory.CreateDirectory(finalOutDir!);
+
+                    File.WriteAllBytes(finalOutPath, restoredBytes);
+                }
+            }
+
+            try { Directory.Delete(gpuTempFolder, true); } catch { }
+            Console.WriteLine($"-> GPU decompression completed! Restored files are in: {tempunzip}");
+        }
+    }
+}

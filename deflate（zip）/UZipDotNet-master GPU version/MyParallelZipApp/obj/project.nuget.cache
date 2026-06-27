@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ILXZd4l/Krw=",
+  "success": true,
+  "projectFilePath": "D:\\Study File\\degree\\Sem5\\TPC6323\\project\\can\\pass zk\\deflate（zip）\\UZipDotNet-master GPU version\\MyParallelZipApp\\MyParallelZipApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lojinkai\\.nuget\\packages\\ilgpu\\1.5.3\\ilgpu.1.5.3.nupkg.sha512",
+    "C:\\Users\\lojinkai\\.nuget\\packages\\ilgpu.algorithms\\1.5.3\\ilgpu.algorithms.1.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

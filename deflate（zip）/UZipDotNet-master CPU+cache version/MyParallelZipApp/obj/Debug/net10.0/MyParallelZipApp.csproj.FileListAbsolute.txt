@@ -1,0 +1,77 @@
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.exe
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.deps.json
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.runtimeconfig.json
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\UZipDotNet.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\UZipDotNet.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.csproj.AssemblyReference.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.AssemblyInfoInputs.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.AssemblyInfo.cs
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.csproj.CoreCompileInputs.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParall.41C91428.Up2Date
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\refint\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.genruntimeconfig.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\ref\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.exe
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.deps.json
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.runtimeconfig.json
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\UZipDotNet.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\bin\Debug\net10.0\UZipDotNet.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.csproj.AssemblyReference.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.AssemblyInfoInputs.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.AssemblyInfo.cs
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.csproj.CoreCompileInputs.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParall.41C91428.Up2Date
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\refint\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.genruntimeconfig.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\parallel\cache\UZipDotNet-master\MyParallelZipApp\obj\Debug\net10.0\ref\MyParallelZipApp.dll
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.exe
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.deps.json
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.runtimeconfig.json
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.dll
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.pdb
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\UZipDotNet.dll
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\UZipDotNet.pdb
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.csproj.AssemblyReference.cache
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.AssemblyInfoInputs.cache
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.AssemblyInfo.cs
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.csproj.CoreCompileInputs.cache
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParall.41C91428.Up2Date
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.dll
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\refint\MyParallelZipApp.dll
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.pdb
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.genruntimeconfig.cache
+C:\Users\KUEK\Downloads\pass zk\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\ref\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.exe
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.deps.json
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.runtimeconfig.json
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\MyParallelZipApp.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\UZipDotNet.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\bin\Debug\net10.0\UZipDotNet.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.csproj.AssemblyReference.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.AssemblyInfoInputs.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.AssemblyInfo.cs
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.csproj.CoreCompileInputs.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParall.41C91428.Up2Date
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\refint\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.genruntimeconfig.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version\MyParallelZipApp\obj\Debug\net10.0\ref\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version - newest version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.csproj.AssemblyReference.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version - newest version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version - newest version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version - newest version\MyParallelZipApp\obj\Debug\net10.0\refint\MyParallelZipApp.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\pass zk\deflate（zip）\UZipDotNet-master CPU+cache version - zk version\UZipDotNet-master CPU+cache version - newest version\MyParallelZipApp\obj\Debug\net10.0\MyParallelZipApp.pdb
