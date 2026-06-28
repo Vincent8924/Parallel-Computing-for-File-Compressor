@@ -1,0 +1,14 @@
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.exe
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.deps.json
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.runtimeconfig.json
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.AssemblyInfo.cs
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\obj\Debug\net10.0\refint\ConsoleApp1.dll
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.pdb
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.genruntimeconfig.cache
+D:\Study File\degree\Sem5\TPC6323\project\can\test completeness\ConsoleApp1\obj\Debug\net10.0\ref\ConsoleApp1.dll

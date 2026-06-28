@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study File\\degree\\Sem5\\TPC6323\\project\\can\\final compare code\\deflate\uFF08zip\uFF09\\UZipDotNet-master CPU\u002Bcache version\\MyParallelZipApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E79E117-20EA-C50F-DD5E-C4234D4F95BE}|MyParallelZipApp.csproj|d:\\study file\\degree\\sem5\\tpc6323\\project\\can\\final compare code\\deflate\uFF08zip\uFF09\\uzipdotnet-master cpu\u002Bcache version\\myparallelzipapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E79E117-20EA-C50F-DD5E-C4234D4F95BE}|MyParallelZipApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.300\\Roslyn\\Microsoft.Managed.Core.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KUEK\\Downloads\\pass zk\\pass zk\\deflate\uFF08zip\uFF09\\UZipDotNet-master CPU\u002Bcache version\\UZipDotNet-master\\UZipDotNet\\src\\UZipDotNet\\DeflateZipFile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Managed.Core.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\Roslyn\\Microsoft.Managed.Core.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\Roslyn\\Microsoft.Managed.Core.targets",
+              "ViewState": "AgIAALkAAAAAAAAAAAAlwMgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-06-24T15:36:00.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study File\\degree\\Sem5\\TPC6323\\project\\can\\final compare code\\deflate\uFF08zip\uFF09\\UZipDotNet-master CPU\u002Bcache version\\MyParallelZipApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Study File\\degree\\Sem5\\TPC6323\\project\\can\\final compare code\\deflate\uFF08zip\uFF09\\UZipDotNet-master CPU\u002Bcache version\\MyParallelZipApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAMcBAAAAAAAAAAAswGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T09:31:22.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeflateZipFile.cs",
+              "DocumentMoniker": "C:\\Users\\KUEK\\Downloads\\pass zk\\pass zk\\deflate\uFF08zip\uFF09\\UZipDotNet-master CPU\u002Bcache version\\UZipDotNet-master\\UZipDotNet\\src\\UZipDotNet\\DeflateZipFile.cs",
+              "ToolTip": "C:\\Users\\KUEK\\Downloads\\pass zk\\pass zk\\deflate\uFF08zip\uFF09\\UZipDotNet-master CPU\u002Bcache version\\UZipDotNet-master\\UZipDotNet\\src\\UZipDotNet\\DeflateZipFile.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:21:43.675Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
