@@ -1,3 +1,0 @@
-deflate算法
-可以压缩跟解压整个folder
-没有用什么library
